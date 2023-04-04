@@ -1,0 +1,67 @@
+.awesome {
+  padding: 80px 0;
+  background-color: #fff;
+}
+.border {
+  margin: auto;
+  height: 2px;
+  width: 64px;
+  background-color: #e72424;
+  margin: auto;
+  margin-bottom: 35px;
+}
+.subtitle {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.subtitle p {
+  margin: auto;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: 670px;
+  line-height: 19px;
+  color: #86878b;
+}
+.awesome-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.awesome-card {
+  width: 350px;
+  padding: 0px;
+  margin: auto;
+}
+.awesome-card-img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border: 1px solid #e72424;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awesome-wrap-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.awesome-card-text {
+  text-align: center;
+  margin: auto;
+}
+.awesome-card-text p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  line-height: 19px;
+  color: #000000;
+}
