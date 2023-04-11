@@ -1,0 +1,71 @@
+.axure {
+    background-image: url("../pic/background_axure.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0 0 38px;
+
+}
+.axure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+.heading {
+  text-align: center;
+  width: 670px;
+  margin: auto;
+  font-size: 36px;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+  padding-top: 57px;
+}
+.heading::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #FFFFFF;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+}
+.heading-description {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 57px;
+}
+.heading-description p {
+    margin: auto;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 700px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+.download {
+    margin: auto;
+    width: 135px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+
+}
+.download a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+   
+}
+
