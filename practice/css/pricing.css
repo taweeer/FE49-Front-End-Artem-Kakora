@@ -24,7 +24,9 @@
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 2px;
+  
 }
+
 .pricing-list-price {
   text-align: center;
   line-height: 100px;
@@ -37,6 +39,7 @@
   font-size: 35px;
   text-transform: capitalize;
 }
+
 .pricing-list-free {
   text-align: center;
   line-height: 50px;

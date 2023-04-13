@@ -1,0 +1,64 @@
+.footer {
+  background-color: #000000;
+  padding: 30px 0 15px;
+}
+
+.wrap {
+  display: block;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  
+}
+.footer-icon-item {
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+}
+.footer-item a {
+  color: #86878B;
+  font-size: 40px;
+  
+  
+}
+.footer-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fa-facebook-f-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+.fa-twitter-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fa-google-plus-g-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fa-pinterest-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fa-instagram-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fa-stumbleupon-footer {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fa-spotify-footer {
+    color: rgba(255, 255, 255, 0.5)
+}

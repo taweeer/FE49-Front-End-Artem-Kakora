@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  padding: 9px 22px;
+  padding: 0px 22px;
   text-align: center;
   color: #86878b;
   margin-bottom: 22px;
@@ -30,13 +30,15 @@
 .customers-card-text:after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  top: 100%;
   left: 35px;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 16px solid #e2e2e2;
+  border-top: 16px solid #E2E2E2;;
 }
-
+.customers-card-text p {
+    padding: 9px 0px;
+}
 .customers-card-avatar {
   display: flex;
   justify-content: space-around;
@@ -45,7 +47,6 @@
 .customers-card-avatar-img {
     width: 70px;
     height: 70px;
-    margin: auto;
     border-radius: 50%;
     margin-bottom: 30px;
    
@@ -60,7 +61,6 @@
  
 }
 .customers-card-name-job {
-  margin: auto;
   font-family: "Open Sans";
   font-style: normal;
   text-align: right;
