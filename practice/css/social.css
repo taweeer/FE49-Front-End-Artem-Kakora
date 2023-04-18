@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
 }
+.social-wrap-info {
+    width: 385px;
+}
 .social-title {
     text-transform: capitalize;
     font-family: "Open Sans";

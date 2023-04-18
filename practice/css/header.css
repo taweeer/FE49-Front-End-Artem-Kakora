@@ -47,6 +47,12 @@
   text-align: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid red;
+
+}
+.nav-wrap a:hover {
+  color: #ec7979;
+
 }
 .main {
    background: url(../pic/background-main\ 1.png);
@@ -109,7 +115,6 @@
   border: 1px solid #ffffff;
   text-align: center;
   padding: 11px 0;
-  cursor: pointer;
   margin-bottom: 101px;
 }
 .link:hover {
@@ -117,6 +122,7 @@
   background-color: #ec7979;
   border: 1px solid #ec7979;
   transform: scale(1.1);
+
 }
 .link a {
   font-family: "Open Sans";
@@ -129,71 +135,124 @@
 }
 .aside {
   padding-top: 110px;
+  display: block;
 }
-.aside-card {
+.form {
   width: 370px;
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
-  border-radius: 8px;
+  border-radius: 7px;
+  overflow: hidden;
+  
 }
-.aside-card-title {
-  text-align: center;
-  margin-bottom: 44px;
+.form-item {
+  width: 350px;
+  padding-left: 59px;
+  padding-right: 59px;
+  margin-bottom: 30px;
 
 }
 
-.aside-card-title a {
-
-  text-align: center;
+.form-title {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 27px;
+  text-align: center;
   text-transform: capitalize;
-  color: #333333;
+  color: #000000;
+  line-height: 27px;
+  padding: 15px;
+  margin-bottom: 44px;
+}
+.form-title-free{
+color: #ec7979;
 }
 
-.aside-card-data {
-  margin: auto;
+
+.form-item-label-name {
+  display: block;
+  justify-content: left;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
-  text-transform: capitalize;
-  margin-bottom: 38px;
   color: #bdbdbd;
+  text-transform: capitalize;
+
 }
-.aside-card-data::after {
-  content: "";
+.form-item-input-name {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #bdbdbd;
+
+}
+
+.form-item-label-email {
   display: block;
-  width: 252px;
-  border: 1px solid #bdbdbd;
-  margin-top: 16px;
+  justify-content: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  text-transform: capitalize;
 }
-.aside-card-data:nth-child(4) {
-  margin-bottom: 61px;
+.form-item-input-email {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #bdbdbd;
+
 }
-.aside-card-get {
-  text-align: center;
-  line-height: 54px;
+
+.form-item-label-password {
+  display: block;
+  justify-content: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  text-transform: capitalize;
+}
+.form-item-input-password {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #bdbdbd;
+  
+}
+
+
+
+
+
+
+
+
+
+.button-wrap {
+  width: 370px;
+  display: flex;
+  justify-content: center;
   background-color: #ec7979;
-  border-bottom: #ec7979;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  cursor: pointer;
+ 
+ 
+  
 }
-.aside-card-get:hover {
-    content: "";
-    transform: scale(1.01);
+.button {
+  width: 100%;
+  background-color: #ec7979;
+  border: none;
+  line-height: 20px;
+  
+  
 }
-.aside-card-get a {
+.button a {
+  width: 100%;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  color: #ffffff;
+  line-height: 50px;
   text-transform: capitalize;
+  color: #ffffff;
 }

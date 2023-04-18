@@ -18,10 +18,10 @@
                 <nav class="nav">
                     <div class="nav-wrap">
                         <a href="#">features</a>
-                        <a href="">about</a>
-                        <a href="">pricing</a>
-                        <a href="">reviews</a>
-                        <a href="">contact</a>
+                        <a href="#">about</a>
+                        <a href="#">pricing</a>
+                        <a href="#">reviews</a>
+                        <a href="#">contact</a>
                     </div>
                 </nav>
             </div>
@@ -42,20 +42,31 @@
                 </div>
             </article>
             <aside class="aside">
-                <ul class="aside-card">
-                    <li class="aside-card-title"><a href="">try your free trial today</a></li>
-                    <li class="aside-card-data">name</li>
-                    <li class="aside-card-data">email</li>
-                    <li class="aside-card-data">password</li>
-                    <li class="aside-card-get"><a href="#">get started</a></li>
-                </ul>
+                <form action="#" class="form">
+                    <h3 class="form-title">try your <span class="form-title-free">free</span> trial today</h3>
+                    <div class="form-item">
+                        <label class="form-item-label-name" for="ures-name">name</label>
+                        <input class="form-item-input-name" type="text" name="name">
+                    </div>
+                    <div class="form-item">
+                        <label class="form-item-label-email" for="ures-email" class="label-email">email</label>
+                        <input class="form-item-input-email" type="email">
+                    </div>
+                    <div class="form-item">
+                        <label class="form-item-label-password" for="ures-password">password</label>
+                        <input class="form-item-input-password" type="password">
+                    </div>
+                    <button type="submit" class="button">
+                        <a href="#">get started</a>
+                    </button>
+                </form>
             </aside>
         </div>
     </main>
     <section class="social">
         <div class="conteiner">
             <div class="social-wrap">
-                <div>
+                <div class="social-wrap-info">
                     <h2 class="social-title">social media</h2>
                     <div class="social-description">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -63,46 +74,46 @@
                         </p>
                     </div>
                 </div>
-                
-                    <div class="social-icon-wrap">
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-facebook-f fa-facebook-f-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-twitter fa-twitter-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-google-plus-g fa-google-plus-g-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-pinterest fa-pinterest-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-instagram fa-instagram-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-stumbleupon fa-stumbleupon-social"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon-item">
-                            <a href="#">
-                                <i class="fa-brands fa-spotify fa-spotify-social"></i>
-                            </a>
-                        </div>
 
+                <div class="social-icon-wrap">
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f fa-facebook-f-social"></i>
+                        </a>
                     </div>
-                
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter fa-twitter-social"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g fa-google-plus-g-social"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-pinterest fa-pinterest-social"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-instagram-social"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-stumbleupon fa-stumbleupon-social"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-spotify fa-spotify-social"></i>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </section>
@@ -115,7 +126,7 @@
             <div class="awesome-wrap">
                 <div class="awesome-card">
                     <div class="awesome-card-img">
-                        <img src="./pic/lamp.png" alt="icon">
+                        <i class="fa-regular fa-lightbulb fa-2x"></i>
                     </div>
                     <h3 class="awesome-wrap-title">thoughtful design
                     </h3>
@@ -129,7 +140,7 @@
                 </div>
                 <div class="awesome-card">
                     <div class="awesome-card-img">
-                        <img src="./pic/keyboard.png" alt="icon">
+                        <i class="fa-regular fa-keyboard fa-2x"></i>
                     </div>
                     <h3 class="awesome-wrap-title">well crafted
                     </h3>
@@ -143,7 +154,7 @@
                 </div>
                 <div class="awesome-card">
                     <div class="awesome-card-img">
-                        <img src="./pic/lightning.png" alt="icon">
+                        <i class="fa-solid fa-bolt-lightning fa-2xl"></i>
                     </div>
                     <h3 class="awesome-wrap-title">easy to customize
                     </h3>
@@ -272,40 +283,73 @@
             </div>
         </div>
     </section>
+    <section class="contact-us">
+        <div class="conteiner">
+            <h2 class="title">contact us</h2>
+            <div class="discription ">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <form action="#" class="form-contact">
+                <div class="form-content">
+                    <div class="form-content-item">
+                        <div class="form-item-contact">
+                            <label class="form-item-label-name" for="user-name">name</label>
+                            <input class="form-item-input-name" type="text" name="name">
+                        </div>
+                        <div class="form-item-contact">
+                            <label class="form-item-label-email" for="ures-email" >email</label>
+                            <input class="form-item-input-email" type="email">
+                        </div>
+                        <div class="form-item-contact">
+                            <label class="form-item-label-password" for="ures-password">password</label>
+                            <input class="form-item-input-password" type="password">
+                        </div>
+                    </div>
+                    <div class="form-item-message">
+                        <label class="message-label" for="text">message</label>
+                        <textarea class="message-window" name="message" id="#" cols="30" rows="11">
+                            
+                            </textarea>
+                    </div>
+                </div>
+                <button type="submit"  class="button-contact"  >send message</button>
+            </form>
+        </div>
+    </section>
     <footer class="footer">
         <div class="contanier">
-           <footer class="wrap">
-              <nav class="footer-nav">
-                 <div class="footer-icon-item"> 
-                    <a href="#">
-                        <i class="fa-brands fa-facebook-f fa-facebook-f-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-twitter fa-twitter-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-google-plus-g fa-google-plus-g-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-pinterest fa-pinterest-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-instagram fa-instagram-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-stumbleupon fa-stumbleupon-footer"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-spotify fa-spotify-footer"></i>
-                    </a>
-                 </div>
-              </nav>
-              <div class="footer-description">
-                 <span>© 2015 axure ahemes</span>
-              </div>
-           </footer>
+            <footer class="wrap">
+                <nav class="footer-nav">
+                    <div class="footer-icon-item">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f fa-facebook-f-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter fa-twitter-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g fa-google-plus-g-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-pinterest fa-pinterest-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-instagram-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-stumbleupon fa-stumbleupon-footer"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-spotify fa-spotify-footer"></i>
+                        </a>
+                    </div>
+                </nav>
+                <div class="footer-description">
+                    <span>© 2015 axure ahemes</span>
+                </div>
+            </footer>
         </div>
-     </footer>
+    </footer>
 </body>
 
 </html>
